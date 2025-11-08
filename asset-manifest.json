@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/movies/static/css/main.56241e56.css",
+    "main.js": "/movies/static/js/main.62de228a.js",
+    "static/media/parasite.jpg": "/movies/static/media/parasite.c35e58735574e7af1aa3.jpg",
+    "static/media/theShining.jpg": "/movies/static/media/theShining.22c0080f4296f001ed6b.jpg",
+    "static/media/orphan.jpg": "/movies/static/media/orphan.b4cf7084db1cecedad8d.jpg",
+    "static/media/silence of the lambs.jpg": "/movies/static/media/silence of the lambs.8a91e5b0122c10e1c136.jpg",
+    "index.html": "/movies/index.html",
+    "main.56241e56.css.map": "/movies/static/css/main.56241e56.css.map",
+    "main.62de228a.js.map": "/movies/static/js/main.62de228a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56241e56.css",
+    "static/js/main.62de228a.js"
+  ]
+}
