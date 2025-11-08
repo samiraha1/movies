@@ -2,9 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './index.css';
+import { createRoot } from "react-dom/client";
 import MovieTheater from './pages/MovieTheater';
 import Layout from './Layout'
 
+const root = createRoot(document.getElementById("root"));
+root.render(<App />);
 
 export default function App() {
   return (

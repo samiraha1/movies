@@ -1,0 +1,15 @@
+body {
+    background-color: white;
+}
+h3{
+    color:red;
+}
+p{
+    color:white;
+}
+.movie{
+   text-align: center;
+   background:black;
+   padding:20px;
+   border: solid 2px white;
+}
