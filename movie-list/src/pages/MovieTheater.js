@@ -14,7 +14,7 @@ const MovieTheater = () => {
         (async () => {
             try {
                 const response = await axios.get(
-                    "http://localhost:3001/api/movies"
+                    "https://movie-backend-t7h7.onrender.com/api/movies/"
                 );
                 console.log("fetched movies: ", response.data);
                 setMoviePlans(response.data);

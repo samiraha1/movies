@@ -7,7 +7,7 @@ function Movie({ movie }) {
             <h3>{movie.name}</h3>
             <p>Director: {movie.director}</p>
             <p>Release Date: {movie.releaseDate}</p>
-            <img src={`http://localhost:3001${movie.img}`} alt={movie.name} />
+            <img src={`https://movie-backend-t7h7.onrender.com${movie.img}`} alt={movie.name} />
         </section>
     );
 }
