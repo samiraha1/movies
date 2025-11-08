@@ -1,8 +1,8 @@
 {
+  "homepage": "https://samiraha1.github.io/movies",
   "name": "movie-list",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "https://samiraha1.github.io/movies",
+  "private": false,
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
