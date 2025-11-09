@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import './index.css';
 import { createRoot } from "react-dom/client";
 import MovieTheater from './pages/MovieTheater';
@@ -9,7 +9,7 @@ import Layout from './Layout'
 
  function App() {
   return (
-    <BrowserRouter basename="/movies">
+    <HashRouter basename="/movies">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<MovieTheater />} />
@@ -23,7 +23,7 @@ import Layout from './Layout'
           <Route path="Settings" element={<Settings />} /> */}
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 const root = createRoot(document.getElementById("root"));
