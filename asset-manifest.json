@@ -1,17 +1,13 @@
 {
   "files": {
-    "main.css": "/movies/static/css/main.56241e56.css",
-    "main.js": "/movies/static/js/main.26fac4e7.js",
-    "static/media/parasite.jpg": "/movies/static/media/parasite.c35e58735574e7af1aa3.jpg",
-    "static/media/theShining.jpg": "/movies/static/media/theShining.22c0080f4296f001ed6b.jpg",
-    "static/media/orphan.jpg": "/movies/static/media/orphan.b4cf7084db1cecedad8d.jpg",
-    "static/media/silence of the lambs.jpg": "/movies/static/media/silence of the lambs.8a91e5b0122c10e1c136.jpg",
+    "main.css": "/movies/static/css/main.37ed2650.css",
+    "main.js": "/movies/static/js/main.de110609.js",
     "index.html": "/movies/index.html",
-    "main.56241e56.css.map": "/movies/static/css/main.56241e56.css.map",
-    "main.26fac4e7.js.map": "/movies/static/js/main.26fac4e7.js.map"
+    "main.37ed2650.css.map": "/movies/static/css/main.37ed2650.css.map",
+    "main.de110609.js.map": "/movies/static/js/main.de110609.js.map"
   },
   "entrypoints": [
-    "static/css/main.56241e56.css",
-    "static/js/main.26fac4e7.js"
+    "static/css/main.37ed2650.css",
+    "static/js/main.de110609.js"
   ]
 }
