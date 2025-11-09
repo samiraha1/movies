@@ -6,10 +6,8 @@ import { createRoot } from "react-dom/client";
 import MovieTheater from './pages/MovieTheater';
 import Layout from './Layout'
 
-const root = createRoot(document.getElementById("root"));
-root.render(<App />);
 
-export default function App() {
+ function App() {
   return (
     <BrowserRouter>
       <Routes>
@@ -28,7 +26,8 @@ export default function App() {
     </BrowserRouter>
   );
 }
-
+const root = createRoot(document.getElementById("root"));
+root.render(<App />);
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(
 //   <React.StrictMode>
