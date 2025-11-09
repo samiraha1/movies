@@ -27,7 +27,21 @@ const MovieTheater = () => {
     console.log("MovieTheater rendered, movies:", moviePlans);
     return (
         <div>
-            {moviePlans.map((moviePlans) => (
+            {moviePlans.length === 0 ? (
+                <p>Loading movies...</p>
+            ) : (
+                moviePlans.map((moviePlans) => (
+                    <Movie
+                        key={moviePlans.id}
+                        movie={moviePlans}
+                        // name={moviePlans.name}
+                        // img={moviePlans.image}
+                        // director={moviePlans.director}
+                        // release={moviePlans.releaseDate} 
+                    />
+                ))
+            )}
+            {/* {moviePlans.map((moviePlans) => (
                 <Movie
                     key={moviePlans.id}
                     movie={moviePlans}
@@ -36,7 +50,7 @@ const MovieTheater = () => {
                     // director={moviePlans.director}
                     // release={moviePlans.releaseDate} 
                 />
-            ))}
+            ))} */}
             {/* {moviePlans.length === 0 ? (
                 <p>Loading movies...</p>
             ) : (

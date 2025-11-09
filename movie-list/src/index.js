@@ -9,7 +9,7 @@ import Layout from './Layout'
 
  function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/movies">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<MovieTheater />} />
